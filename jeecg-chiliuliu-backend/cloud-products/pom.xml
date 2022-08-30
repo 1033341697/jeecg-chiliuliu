@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>jeecg-boot-parent</artifactId>
+        <groupId>org.jeecgframework.boot</groupId>
+        <version>3.1.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.hwsafe.cloud</groupId>
+    <artifactId>cloud-products</artifactId>
+    <version>${cloud.products.version}</version>
+    <packaging>pom</packaging>
+
+    <properties>
+        <!--云平台版本号-->
+        <cloud.products.version>1.0.0-RELEASE</cloud.products.version>
+    </properties>
+
+    <modules>
+        <module>cloud-risk</module>
+    </modules>
+</project>
